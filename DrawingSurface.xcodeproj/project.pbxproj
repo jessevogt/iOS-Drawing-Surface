@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88615712152D30A00020CAD8 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88615711152D30A00020CAD8 /* PaintView.m */; };
 		88B62D8B152D2EE800EE6140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B62D8A152D2EE800EE6140 /* UIKit.framework */; };
 		88B62D8D152D2EE800EE6140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B62D8C152D2EE800EE6140 /* Foundation.framework */; };
 		88B62D8F152D2EE800EE6140 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B62D8E152D2EE800EE6140 /* CoreGraphics.framework */; };
@@ -34,25 +35,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88615710152D30A00020CAD8 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		88615711152D30A00020CAD8 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
 		88B62D86152D2EE800EE6140 /* DrawingSurface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingSurface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B62D8A152D2EE800EE6140 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88B62D8C152D2EE800EE6140 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88B62D8E152D2EE800EE6140 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		88B62D92152D2EE800EE6140 /* DrawingSurface-Info.plist */ = {isa = PBXFileReference; path = "DrawingSurface-Info.plist"; sourceTree = "<group>"; };
+		88B62D92152D2EE800EE6140 /* DrawingSurface-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingSurface-Info.plist"; sourceTree = "<group>"; };
 		88B62D94152D2EE800EE6140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88B62D96152D2EE800EE6140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		88B62D98152D2EE900EE6140 /* DrawingSurface-Prefix.pch */ = {isa = PBXFileReference; path = "DrawingSurface-Prefix.pch"; sourceTree = "<group>"; };
-		88B62D99152D2EE900EE6140 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		88B62D98152D2EE900EE6140 /* DrawingSurface-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingSurface-Prefix.pch"; sourceTree = "<group>"; };
+		88B62D99152D2EE900EE6140 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88B62D9A152D2EE900EE6140 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88B62D9D152D2EE900EE6140 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		88B62DA0152D2EE900EE6140 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		88B62DA2152D2EE900EE6140 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		88B62DA2152D2EE900EE6140 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		88B62DA3152D2EE900EE6140 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88B62DAA152D2EE900EE6140 /* DrawingSurfaceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingSurfaceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B62DAB152D2EE900EE6140 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		88B62DB3152D2EE900EE6140 /* DrawingSurfaceTests-Info.plist */ = {isa = PBXFileReference; path = "DrawingSurfaceTests-Info.plist"; sourceTree = "<group>"; };
+		88B62DB3152D2EE900EE6140 /* DrawingSurfaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingSurfaceTests-Info.plist"; sourceTree = "<group>"; };
 		88B62DB5152D2EE900EE6140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		88B62DB7152D2EE900EE6140 /* DrawingSurfaceTests.h */ = {isa = PBXFileReference; path = DrawingSurfaceTests.h; sourceTree = "<group>"; };
+		88B62DB7152D2EE900EE6140 /* DrawingSurfaceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingSurfaceTests.h; sourceTree = "<group>"; };
 		88B62DB8152D2EE900EE6140 /* DrawingSurfaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingSurfaceTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +123,8 @@
 				88B62DA2152D2EE900EE6140 /* ViewController.h */,
 				88B62DA3152D2EE900EE6140 /* ViewController.m */,
 				88B62D91152D2EE800EE6140 /* Supporting Files */,
+				88615710152D30A00020CAD8 /* PaintView.h */,
+				88615711152D30A00020CAD8 /* PaintView.m */,
 			);
 			path = DrawingSurface;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				88B62D97152D2EE900EE6140 /* main.m in Sources */,
 				88B62D9B152D2EE900EE6140 /* AppDelegate.m in Sources */,
 				88B62DA4152D2EE900EE6140 /* ViewController.m in Sources */,
+				88615712152D30A00020CAD8 /* PaintView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +449,7 @@
 				88B62DBE152D2EE900EE6140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88B62DBF152D2EE900EE6140 /* Build configuration list for PBXNativeTarget "DrawingSurfaceTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				88B62DC1152D2EE900EE6140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,10 +7,7 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "PaintView.h"
 
 @implementation ViewController
 
@@ -18,6 +15,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    PaintView *paint = [[PaintView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:paint];
 }
 
 - (void)viewDidUnload
